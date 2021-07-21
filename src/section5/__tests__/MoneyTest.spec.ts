@@ -1,4 +1,5 @@
 import { Dollar } from "../Dollar";
+import { Franc } from "../Franc";
 
 describe("Moneyのテスト", () => {
   it("testMultiplication", () => {
