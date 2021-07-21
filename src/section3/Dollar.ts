@@ -12,7 +12,7 @@ export class Dollar {
     return new Dollar(this.amount * multiplier);
   }
 
-  public equals(object: Dollar): boolean {
-    return this.amount === object.amount;
+  public equals(that: Dollar): boolean {
+    return this.amount === that.amount;
   }
 }
