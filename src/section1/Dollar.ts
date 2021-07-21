@@ -3,11 +3,13 @@
  * @description 多国通貨を表すクラス
  */
 export class Dollar {
-  amount = 10;
+  amount;
   
   constructor(amount: number) {
+    this.amount = amount;
   }
 
   public times(multiplier: number): void {
+    this.amount *= multiplier;
   }
 }
